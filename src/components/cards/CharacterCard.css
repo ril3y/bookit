@@ -1,0 +1,27 @@
+.character-card {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.character-card h2 {
+  margin-top: 0;
+  color: var(--text-primary);
+}
+
+.character-card .pronunciation {
+  font-style: italic;
+  color: var(--text-secondary);
+}
+
+.character-card .character-section {
+  margin-top: 15px;
+}
+
+.character-card .scrollable-content {
+  max-height: 150px;
+  overflow-y: auto;
+  padding-right: 10px;
+}
